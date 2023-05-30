@@ -88,7 +88,6 @@ class _CameraResultState extends ConsumerState<CameraResult> {
     void onReturnPressed() {
       Navigator.of(context, rootNavigator: true).pop();
       Navigator.of(context).pop();
-      Navigator.of(context).pop();
     }
 
     return DefaultLayout(
